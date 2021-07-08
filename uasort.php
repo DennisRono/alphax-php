@@ -38,6 +38,8 @@
         //Print the array as it is:
         echo '<h3> The Array in its Original structure: </h3><pre>'.print_r($students, 1). '</pre>';
         //sort by name:
+        uasort($students, 'grade_sort');
+        echo '<h3> Array Sorted By Grade </h3> <pre>'. print_r($students, 1). '</pre>';
     ?>
 </body>
 </html>
