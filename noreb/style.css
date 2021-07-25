@@ -1,0 +1,34 @@
+/* basic elements*/
+body { text-align:center; background-color:#dddddd; color:navy; font-family: verdana,monotype corsiva,serif; font-size: 100%; color: navy; margin: auto; }
+h1 { position:relative; top:60px; font-size:200%; color:#ffffff; margin:auto 0 auto 20px; width: 600px; }
+h2 { font-size:150%; color:navy; text-align:center;}
+h3 { font-size:110%; color:navy; text-align:center; }
+ul { position:absolute; top:190px; left:-10px; color:navy; width:135px; text-align:center; margin:0;}
+li { width:115px; list-style-type :none; margin-bottom: 3px; text-align: center; }
+li a { display: block; width:115px; color: white; font-weight: bold; text-decoration: none }
+li a { background: #5B78BE; border: 4px outset #aabaff; }
+li a:hover { display:block; background: #0a4adf; border: 4px outset #8abaff; width:115px; }
+li a:active { background:#aecbff; border: 4px inset #aecbff; }
+table { width:500px; border:1px navy solid; border-collapse:collapse; margin:auto; }
+td { border:1px navy solid; padding:1px 0 1px 4px; text-align:left; }
+
+
+/*Structure*/
+#container { position:relative; min-width:960px; max-width:1200px; margin:auto; 
+            text-align:left; }
+#header{ margin:10px auto 0 auto; min-width:960px; max-width:1200px; height:175px; background-image: url('images/tessie.jpg'); background-repeat:
+repeat; padding:0; color:white;border-radius: 10px; box-shadow: 12px 12px 12px #404040;}
+#reg-navigation ul {float:right; font-size:medium; width:160px; margin:-150px 15px 0 88%; }
+#content { margin-top:1em;margin-left:12.5em; margin-right:3.125em;font-size:1em;padding:1em; border-radius:1em;background-color:#ffffff;border-top:solid 0.2em #5B78BE;
+          border-bottom:solid 0.2em #5B78BE; }
+#leftcol { float:left; width: 310px; vertical-align:top; }
+
+
+#content .clear { clear:both;}
+#content .wrapper { width:100%; overflow:hidden;}
+#content .line-hor { background:navy; height:1px; overflow:hidden; font-size:0; line-height:0; margin:21px 0 16px 0;}
+#content .col-1 {width:13.375em; margin-right:7em;}
+#content .col-2 {width:13.9375em; margin-left:31.25em;position:absolute;top:50.9375em;}
+
+
+#footer { clear:both; margin:auto; height: 20px; text-align:center;}

@@ -1,15 +1,17 @@
-<?php
-class Foo {
-	public $a = "test try from dennis";
-	public $b = "member function";
-
-	function memfunction(){
-		print 'Inside `memfunction()`';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PHP Functions</title>
+</head>
+<body>
+	<?php
+		//Defining a function
+	function leo(){
+		echo "Today is" .date('l', mktime());
 	}
-}
-$foo = new Foo;
-
-
-$element = 'memfunction';
-print $foo->$element;
- ?>
+	//calling of a function
+	leo();
+	?>
+</body>
+</html>
