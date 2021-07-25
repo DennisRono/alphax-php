@@ -1,6 +1,5 @@
 /* basic elements*/
-/* text-align:center; */
-body { text-align: left !important; background-color:#dddddd; color:navy; font-family: verdana,monotype corsiva,serif; font-size: 100%; color: navy; margin: auto; }
+body { text-align:center; background-color:#dddddd; color:navy; font-family: verdana,monotype corsiva,serif; font-size: 100%; color: navy; margin: auto; }
 h1 { position:relative; top:60px; font-size:200%; color:#ffffff; margin:auto 0 auto 20px; width: 600px; }
 h2 { font-size:150%; color:navy; text-align:center;}
 h3 { font-size:110%; color:navy; text-align:center; }
@@ -15,7 +14,8 @@ td { border:1px navy solid; padding:1px 0 1px 4px; text-align:left; }
 
 
 /*Structure*/
-#container { position:relative; min-width:960px; max-width:1200px; margin:auto; text-align:left; }
+#container { position:relative; min-width:960px; max-width:1200px; margin:auto; 
+            text-align:left; }
 #header{ margin:10px auto 0 auto; min-width:960px; max-width:1200px; height:175px; background-image: url('images/tessie.jpg'); background-repeat:
 repeat; padding:0; color:white;border-radius: 10px; box-shadow: 12px 12px 12px #404040;}
 #reg-navigation ul {float:right; font-size:medium; width:160px; margin:-150px 15px 0 88%; }
