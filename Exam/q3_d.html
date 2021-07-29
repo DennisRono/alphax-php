@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        .bc{
+            margin: 100px auto;
+            height: 400px;
+            width: 400px;
+            background-color: cyan;
+            animation: changes 5s linear infinite;
+            transition: .3 ease;
+            position: absolute;
+        }
+        @keyframes changes{
+            25%{
+                background-color: rgb(194, 197, 13);
+                top: 0;
+                left: 10px;
+            }
+            50%{
+                background-color: rgb(45, 255, 63);
+                top: 0;
+                right: 10px;
+            }
+            100%{
+                background-color: rgb(255, 52, 171);
+                bottom: 20px;
+                right: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bc">
+
+    </div>
+</body>
+</html>

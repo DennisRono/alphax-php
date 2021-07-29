@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number of characters in a string</title>
+</head>
+<body>
+    <div>
+        <p class="out"></p>
+        <form>
+            <input id="enter" type="text" placeholder="enter">
+            <input id="submit" type="submit" onclick="btns()" value="Check">
+        </form>
+    </div>
+    <script>
+        var sub = document.querySelector('#submit');
+        sub.addEventListener('click', (e)=>{
+            e.preventDefault();
+        });
+        function btns(){
+            var value = document.querySelector('#enter').value;
+            var out = document.querySelector('.out');
+            out.innerHTML = value.length;
+            return value.length;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Five</title>
+    <style>
+        .header{
+            margin-left: 200px;
+        }
+        .container{
+            margin: 0px 10%;
+        }
+        .results{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .national, .extra-county, .county{
+            text-align: center;
+        }
+        .national-r, .extra-county-r, .county-r{
+            width: 400px;
+            height: auto;
+            border: 1px solid black;
+            margin-right: 15px;
+        }
+        h4{
+            margin-bottom: 10px;
+        }
+        thead > tr > td{
+            font-weight: 600;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h4 class="header">Students Selected in different School categories</h4>
+    <div class="results">
+        <div class="national">
+            <h4>National</h4>
+            <div class="national-r">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>student Index Number</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="index"> 
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="extra-county">
+            <h4>Extra county</h4>
+            <div class="extra-county-r">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>student Index Number</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="indext"> 
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="county">
+            <h4>County</h4>
+            <div class="county-r">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>student Index Number</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="indexw"> 
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js_function.js"></script>
+</body>
+</html>
